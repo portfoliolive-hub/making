@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    font-family: "Montserrat", sans-serif
+}
+
+
+/***** header *******/
+
+header {
+    background-color: #ffa000;
+    color: #fff;
+}
+
+.navbar-text li {
+    display: inline-block;
+}
+
+.navbar-text i {
+    color: #fff;
+}
+
+
+/**** carousel ********/
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-color: #fff;
+    filter: opacity(150%);
+}
+
+.carousel-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.caption-one {
+    text-align: left;
+    position: absolute;
+    top: 10%;
+    transform: translateX(-10%);
+    color: #fff;
+}
+
+.caption-one h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.carousel-caption.btn:hover {
+    background-color: #ffa000;
+}
+
+
+/******* navbar ******/
+
+.navbar {
+    height: 100px;
+}
+
+i.fa.fa-search {
+    color: #ffa000;
+    font-size: 20px;
+}
+
+i.fa.fa-home {
+    color: #fff;
+    font-size: 30px;
+    background-color: #ffa000;
+}
+
+span.logo {
+    color: #ffa000;
+    font-size: 30px;
+    padding-left: 4px;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+    border: 2px solid#ffa000;
+}
+
+.navbar-toggler {
+    background-color: #ffa000;
+    border: 3px solid #fff;
+}
+
+a#navbarDropdown,
+a.nav-link {
+    color: #ffa000;
+    font-size: 20px;
+}
+
+a.nav-link:hover {
+    color: #ffa000;
+}
+
+.dropdown-menu a {
+    background-color: #fff;
+    color: #ffa000;
+}
+
+.dropdown-toggle {
+    content: "+";
+    margin-left: 0;
+    vertical-align: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+
+/**** about-us  *****/
+
+.about-us {
+    position: relative;
+    margin-top: 3rem;
+}
+
+.about-us ul {
+    color: #7a7268;
+    font-family: "Open Sans", sans-serif;
+}
+
+.about-us p {
+    color: #7a7268;
+    font-family: "Open Sans", sans-serif;
+}
+
+.fa-check {
+    color: #ffa000;
+}
+
+.about-us img {
+    display: inline-block;
+    white-space: normal;
+    width: 100%;
+}
+
+
+/************ row-icon *****/
+
+.icon-user i {
+    font-size: 50px;
+    border: 2px solid #ffa000;
+    border-radius: 50%;
+    padding: 20px;
+    width: 100%;
+}
+
+.fa-graduation-cap {
+    font-size: 41px !important;
+}
+
+.icon-user {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-column {
+    display: flex;
+}
+
+.icon-text-number {
+    width: 100%;
+}
+
+
+/*****Portfolio Gallery with Filtering*****/
+
+.row {
+    margin: 10px -16px;
+}
+
+
+/* Add padding BETWEEN each column */
+
+.row,
+.row > .column {
+    padding: 5px;
+}
+
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 25%;
+    display: none;
+    /* Hide all elements by default */
+}
+
+
+/* Clear floats after rows */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* The "show" class is added to the filtered elements */
+
+.show {
+    display: block;
+}
+
+.content img {
+    height: 200px;
+    width: 100%;
+}
+
+
+/* Style the buttons */
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+.hr-one {
+    width: 5%;
+    border: 2px solid #ffa000;
+}
+
+
+/*************  video card ******/
+
+.card {
+    border: none !important;
+    overflow: hidden;
+}
+
+.card-body {
+    text-align: justify;
+}
+
+.card-body iframe {
+    width: 100%;
+    height: 420px;
+    border: 0;
+}
+
+.card-with-text {
+    width: 100%;
+    height: 420px;
+}
+
+.card-with-text p {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+
+/********** card-container *********/
+
+.yellow {
+    background-color: #ffa000;
+}
+
+
+/************* yellow container *********/
+
+.yellow-container {
+    background-color: #ffa000;
+}
+
+
+/********** card with video *********/
+
+.card-top {
+    height: 200px;
+    width: 100%;
+}
+
+
+/******* logo container ****/
+
+.logo-column img {
+    height: 120px;
+    width: 80%;
+}
+
+
+/***** second carousel *******/
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-color: #000;
+    filter: opacity(0.5);
+}
+
+.carousel-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    filter: opacity(1);
+}
+
+.slide {
+    margin-top: -10px;
+}
+
+.caption-second {
+    text-align: left;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    color: #fff;
+    text-align: justify;
+}
+
+.carousel-caption img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fff;
+    display: block;
+    margin: auto;
+}
+
+.carousel-caption i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.carousel-caption p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1;
+}
+
+p.text-yellow {
+    color: #ffa000;
+}
+
+
+/*************** card-carousel ***************/
+
+.card-img-top {
+    height: 200px;
+    width: 100%;
+}
+
+.cb {
+    padding: 0.25rem;
+}
+
+.card-inner {
+    overflow: hidden;
+}
+
+.card-inner img {
+    transition: all 1.5s ease;
+}
+
+.card-inner iframe {
+    transition: all 1.5s ease;
+}
+
+.card-inner:hover img {
+    transform: scale(1.5);
+}
+
+.card-inner:hover iframe {
+    transform: scale(1.5);
+}
+
+
+/********** yellow line **********/
+
+.yellow-line {
+    background-color: #ffa000;
+    margin: -10px;
+}
+
+.text-envelope,
+.text-map,
+.text-phone {
+    color: #4e5b54;
+}
+
+.icon-map i,
+.icon-envelope i {
+    font-size: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.icon-phone i {
+    font-size: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #fff;
+    margin-left: -52px;
+    margin-bottom: 10px;
+}
+
+.icon-map,
+.icon-envelope {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/************* footer ********/
+
+footer {
+    background-color: #24201f;
+    padding: 80px 0;
+    position: relative;
+    bottom: 0;
+}
+
+.img-footer img {
+    width: 50%;
+    height: 70px;
+}
+
+.media {
+    color: #969696;
+}
+
+.images-gellary img {
+    width: 100%;
+    height: 100px;
+}
+
+.images-gellary td,
+tr {
+
+    padding: 3px;
+}
+
+#bottom-footer {
+    background-color: #1f1b1a;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    line-height: 60px;
+
+}
